@@ -15,6 +15,9 @@
 		E18236271E473FA500B99737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18236251E473FA500B99737 /* LaunchScreen.storyboard */; };
 		E18236321E473FA500B99737 /* Tic_Tac_Toe_iOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18236311E473FA500B99737 /* Tic_Tac_Toe_iOS_AppTests.swift */; };
 		E182363D1E473FA500B99737 /* Tic_Tac_Toe_iOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182363C1E473FA500B99737 /* Tic_Tac_Toe_iOS_AppUITests.swift */; };
+		E182364D1E47403B00B99737 /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = E182364A1E47403B00B99737 /* Board.png */; };
+		E182364E1E47403B00B99737 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = E182364B1E47403B00B99737 /* Cross.png */; };
+		E182364F1E47403B00B99737 /* Nought.png in Resources */ = {isa = PBXBuildFile; fileRef = E182364C1E47403B00B99737 /* Nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E18236381E473FA500B99737 /* Tic Tac Toe iOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac Toe iOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E182363C1E473FA500B99737 /* Tic_Tac_Toe_iOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_Toe_iOS_AppUITests.swift; sourceTree = "<group>"; };
 		E182363E1E473FA500B99737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E182364A1E47403B00B99737 /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Board.png; path = "../../../../../../../../../Downloads/Tic Tac Toe/Board.png"; sourceTree = "<group>"; };
+		E182364B1E47403B00B99737 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cross.png; path = "../../../../../../../../../Downloads/Tic Tac Toe/Cross.png"; sourceTree = "<group>"; };
+		E182364C1E47403B00B99737 /* Nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nought.png; path = "../../../../../../../../../Downloads/Tic Tac Toe/Nought.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				E18236231E473FA500B99737 /* Assets.xcassets */,
 				E18236251E473FA500B99737 /* LaunchScreen.storyboard */,
 				E18236281E473FA500B99737 /* Info.plist */,
+				E182364A1E47403B00B99737 /* Board.png */,
+				E182364B1E47403B00B99737 /* Cross.png */,
+				E182364C1E47403B00B99737 /* Nought.png */,
 				E18236201E473FA500B99737 /* Tic_Tac_Toe_iOS_App.xcdatamodeld */,
 			);
 			path = "Tic Tac Toe iOS App";
@@ -238,7 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E182364F1E47403B00B99737 /* Nought.png in Resources */,
+				E182364D1E47403B00B99737 /* Board.png in Resources */,
 				E18236271E473FA500B99737 /* LaunchScreen.storyboard in Resources */,
+				E182364E1E47403B00B99737 /* Cross.png in Resources */,
 				E18236241E473FA500B99737 /* Assets.xcassets in Resources */,
 				E182361F1E473FA400B99737 /* Main.storyboard in Resources */,
 			);
