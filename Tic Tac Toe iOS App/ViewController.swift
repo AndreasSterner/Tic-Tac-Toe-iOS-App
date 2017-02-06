@@ -41,11 +41,9 @@ class ViewController: UIViewController {
             if(gameState[combination[0]] != 0 && gameState[combination[0]] == gameState[combination[1]] && gameState[combination[1]] == gameState[combination[2]]) {
             gameIsActive = false
                 if(gameState[combination[0]] == 1){
-                // Cross Wins
-                    winner.text = "Kryss vinner"
+                    winner.text = "Cross Wins"
                 } else {
-                //Nought Wins
-                    winner.text = "Cirkel vinner"
+                    winner.text = "Nought Wins"
                 }
                 playAgainButton.isHidden = false
                 winner.isHidden = false
